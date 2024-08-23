@@ -1,0 +1,39 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.letter-spacing-padding{
+    letter-spacing: 1px;
+}
+
+li:nth-child(even){
+    margin-top: 12px;
+  }
+
+  .bg-background-image{
+    background: url('./planbackground.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-background-image2{
+    background: url('./assets/end.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-background-image3{
+    background: url('./assets/random.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .gradient-class{
+    background: linear-gradient(180deg, rgba(0,42,135,1) 0%, rgba(255,255,255,.7) 100%); 
+    border-radius: 30px;
+    border: 2px solid black;
+  }
